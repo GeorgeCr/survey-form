@@ -1,0 +1,53 @@
+body {
+    background: #a9d7d1;
+    font-family: 'KoHo', sans-serif;
+}
+
+#main {
+    background: white;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 1000px;
+    min-width: 650px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#description {
+    padding-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.radio-container {
+    display: grid;
+    grid-template: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+#submit {
+    text-align: center;
+    padding-bottom: 50px;
+    padding: 5px 20px 20px 20px;
+}
+
+button {
+    text-align: center;
+    vertical-align: center;
+    width: 100px;
+    height: 5px;
+}
